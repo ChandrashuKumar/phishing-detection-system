@@ -22,6 +22,7 @@ pip install -r requirements.txt
 phishing-detection-system/
 ├── ml_training/
 │   └── notebooks/
+│   └── documentations/
 ├── environment.yml
 ├── requirements.txt
 └── README.md
