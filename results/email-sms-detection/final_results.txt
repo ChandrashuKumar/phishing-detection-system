@@ -1,0 +1,47 @@
+================================================================================
+PHISHING EMAIL DETECTION - FINAL RESULTS
+================================================================================
+
+Model Configuration:
+  BERT Model: distilbert-base-uncased
+  Max Sequence Length: 128 tokens
+  LSTM Hidden Size: 128
+  LSTM Layers: 1
+  Dropout: 0.3
+  Frozen Layers: [0, 1, 2]
+  Trained Layers: [3, 4, 5]
+  Batch Size: 12
+  Gradient Accumulation: 3
+  Effective Batch Size: 36
+  BERT Learning Rate: 2e-05
+  LSTM Learning Rate: 0.001
+  Mixed Precision: True
+  Total Parameters: 67,282,689
+  Trainable Parameters: 22,183,425
+
+================================================================================
+
+Training Summary:
+  Total Epochs: 5
+  Best Epoch: 4
+  Best Validation F1: 0.9915
+
+================================================================================
+
+Test Set Performance:
+  Loss:      0.0270
+  Accuracy:  0.9917 (99.17%)
+  Precision: 0.9923 (99.23%)
+  Recall:    0.9897 (98.97%)
+  F1 Score:  0.9910 (99.10%)
+  ROC AUC:   0.9995
+
+================================================================================
+
+Confusion Matrix:
+  True Negatives:  16,186
+  False Positives: 108
+  False Negatives: 146
+  True Positives:  14,001
+
+================================================================================
