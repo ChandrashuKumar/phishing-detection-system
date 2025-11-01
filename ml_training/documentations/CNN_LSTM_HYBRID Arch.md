@@ -133,3 +133,10 @@ URL Max Pool (batch, 128)                 HTML Max Pool (batch, 128)
 3. **Attention Mechanism**: Focuses on important features while suppressing noise
 4. **Bidirectional LSTM**: Captures sequential dependencies in combined features
 5. **Class Imbalance Handling**: Weighted loss function prioritizes phishing detection
+
+## Use Cases
+
+This model is optimized for detecting phishing websites by analyzing both URL and HTML content to identify:
+- **URL Patterns**: Suspicious TLDs (`.tk`, `.ml`), typosquatting, URL structure anomalies
+- **HTML Content**: Social engineering keywords, login forms, brand impersonation
+- **Combined Analysis**: Cross-modal patterns and sophisticated attacks requiring both URL and content analysis
