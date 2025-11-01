@@ -1,16 +1,12 @@
 phishing-detection-system/
 |-- ml_training/
 |   |-- documentations/
-|   |   |-- CNN Arch.md
-|   |   |-- CNN_LSTM_HYBRID Arch.md
 |   |-- notebooks/
 |       |-- url-detection/
-|           |-- 01_EDA.ipynb
-|           |-- 02_feature_engineering.ipynb
-|           |-- 03_random_forest.ipynb
-|           |-- 04_xgboost.ipynb
-|           |-- 05_deep_learning.ipynb
-|           |-- 06_cnn_lstm_hybrid.ipynb
+|       |-- email-sms-detection/
+|-- results/
+|       |-- url-detection/
+|       |-- email-sms-detection/
 |-- .gitignore
 |-- environment.yml
 |-- folder_structure.txt
