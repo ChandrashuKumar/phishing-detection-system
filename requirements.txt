@@ -90,8 +90,10 @@ pytz==2025.2
 pywin32 @ file:///D:/bld/bld/rattler-build_pywin32_1756487136/work
 PyYAML==6.0.3
 pyzmq @ file:///D:/bld/bld/rattler-build_pyzmq_1757387025/work
+regex==2025.10.23
 requests @ file:///C:/b/abs_f53smfvswb/croot/requests_1756709376206/work
 rich @ file:///C:/miniconda3/conda-bld/rich_1760375504689/work
+safetensors==0.6.2
 scikit-learn==1.7.2
 scipy @ file:///C:/miniconda3/conda-bld/scipy_1759489069399/work/dist/scipy-1.16.2-cp312-cp312-win_amd64.whl#sha256=032e40d0a0fa19f97bac0968a9d9d1c01cb3f87c6271b5e35d150d1a1780f403
 seaborn==0.13.2
@@ -106,12 +108,14 @@ tensorboard_data_server @ file:///C:/b/abs_96oxnengxy/croot/tensorboard-data-ser
 tensorflow_cpu==2.19.1
 termcolor @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/termcolor_1699545036385/work
 threadpoolctl==3.6.0
+tokenizers==0.22.1
 torch==2.6.0+cu124
 torchaudio==2.6.0+cu124
 torchvision==0.21.0+cu124
 tornado @ file:///D:/bld/tornado_1756854828833/work
 tqdm==4.67.1
 traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1733367359838/work
+transformers==4.57.1
 typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_typing_extensions_1756220668/work
 tzdata==2025.2
 urllib3 @ file:///C:/b/abs_393g1ayee_/croot/urllib3_1750775481226/work
