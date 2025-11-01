@@ -34,7 +34,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 3. Setup Datasets
+### 3. Datasets
 
 #### Dataset 1: PhreshPhish (URL Detection)
 This dataset is automatically downloaded from Hugging Face when running the notebooks.
