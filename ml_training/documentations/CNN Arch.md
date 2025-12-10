@@ -76,7 +76,11 @@ The model uses three parallel 1D convolutions with different kernel sizes to cap
 
 ### Loss Function
 - **Type**: BCEWithLogitsLoss
-- **Positive Weight**: 2.13 (compensates for class imbalance)
+
+### Class Imbalance Handling
+- **Method**: WeightedRandomSampler
+- **Purpose**: Oversamples minority class (phishing) during training to achieve balanced batches
+- **Effect**: Phishing samples are seen ~2.13× more often per epoch
 
 ### Regularization
 - **Dropout Rates**: 
@@ -99,7 +103,7 @@ The model uses three parallel 1D convolutions with different kernel sizes to cap
 2. **Attention Mechanism**: Automatically learns to focus on suspicious character sequences
 3. **Deep Feature Extraction**: Four convolutional layers progressively extract higher-level features
 4. **Heavy Regularization**: Multiple dropout layers (0.3-0.5) prevent overfitting
-5. **Class Imbalance Handling**: Weighted loss function (2.13×) prioritizes phishing detection
+5. **Class Imbalance Handling**: WeightedRandomSampler ensures balanced training batches
 
 ## Data Flow Summary
 ```

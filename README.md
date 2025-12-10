@@ -69,7 +69,7 @@ Download and extract to `data/unprocessed/email-detection/`.
 | Model | Threshold | Accuracy | Precision | Recall | F1-Score |
 |-------|-----------|----------|-----------|--------|----------|
 | **XGBoost** | 0.40 | 95.85% | 88.47% | 88.94% | 88.71% |
-| **CNN** | 0.60 | 96.03% | 88.29% | 90.28% | 89.27% |
+| **CNN** | 0.30 | 96.65% | 90.53% | 91.24% | 90.89% |
 | **CNN-BiLSTM** | 0.31 | 96.85% | 92.53% | 90.09% | 91.29% |
 
 ### Email/SMS Detection Model (Test Set)
