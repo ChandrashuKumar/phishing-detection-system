@@ -12,7 +12,7 @@ This project implements multiple models for phishing detection:
 - CNN-BiLSTM Hybrid (URL + HTML content)
 
 **Email/SMS Detection** (Phishing Messages)
-- DistilBERT-BiLSTM (transformer-based text classification)
+- DistilBERT (transformer-based text classification)
 
 ## Setup
 
@@ -76,7 +76,7 @@ Download and extract to `data/unprocessed/email-detection/`.
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |-------|----------|-----------|--------|----------|
-| **DistilBERT-BiLSTM** | 99.17% | 99.23% | 98.97% | 99.10% |
+| **DistilBERT** | 99.17% | 99.23% | 98.97% | 99.10% |
 
 *See `results/` directory for detailed confusion matrices and ROC curves.*
 
