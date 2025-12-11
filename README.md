@@ -8,7 +8,7 @@ This project implements multiple models for phishing detection:
 
 **URL Detection** (Phishing Websites)
 - Random Forest, XGBoost (feature-based)
-- CNN (character-level URL analysis)
+- CNN with self-attention (character-level URL analysis)
 - Dual CNN with Cross-Attention (URL + HTML content)
 
 **Email/SMS Detection** (Phishing Messages)
@@ -69,7 +69,7 @@ Download and extract to `data/unprocessed/email-detection/`.
 | Model | Accuracy | Precision | Recall | F1-Score |
 |-------|----------|-----------|--------|----------|
 | **XGBoost** | 95.85% | 88.47% | 88.94% | 88.71% |
-| **CNN** | 96.65% | 90.53% | 91.24% | 90.89% |
+| **CNN with self-attention** | 96.65% | 90.53% | 91.24% | 90.89% |
 | **Dual CNN with Cross-Attention** | 96.81% | 91.37% | 91.17% | 91.27% |
 
 ### Email/SMS Detection Model (Test Set)
