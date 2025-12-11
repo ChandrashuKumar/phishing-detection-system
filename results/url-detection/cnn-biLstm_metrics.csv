@@ -1,2 +1,0 @@
-model,test_accuracy,test_precision,test_recall,test_f1,roc_auc,best_epoch_f1,total_params,trained_at
-CNN-BiLSTM with Attention,0.968521489,0.925316263,0.900875501,0.912932331,0.989831722,0.912932331,2135571,28-10-2025 21:43

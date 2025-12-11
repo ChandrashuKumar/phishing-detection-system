@@ -1,0 +1,2 @@
+model,test_accuracy,test_precision,test_recall,test_f1,roc_auc,best_epoch_f1,total_params,trained_at
+Dual CNN with Cross-Attention,0.9680593687987604,0.9137418203450327,0.9117079685413266,0.9127237614201886,0.988494345141161,0.0,3188865,2025-12-11 10:32:34
