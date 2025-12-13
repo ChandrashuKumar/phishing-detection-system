@@ -9,7 +9,7 @@ class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'dev-secret-key-change-in-production'
 
     # Model paths
-    MODEL_DIR = os.environ.get('MODEL_DIR') or '../ml/models'
+    MODEL_DIR = os.environ.get('MODEL_DIR') or os.path.join(os.path.dirname(__file__), 'models')
 
     # API settings
     MAX_CONTENT_LENGTH = 16 * 1024 * 1024  # 16MB max request size

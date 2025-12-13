@@ -44,3 +44,6 @@ htmlcov/
 
 # Logs
 *.log
+
+# Models (too large for GitHub, deployed directly from local)
+models/

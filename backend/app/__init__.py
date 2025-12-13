@@ -11,9 +11,9 @@ def create_app(config_class=Config):
     # Enable CORS
     CORS(app)
 
-    # Register blueprints (routes will be added here)
-    # from app.routes import main_bp
-    # app.register_blueprint(main_bp)
+    # Register blueprints
+    from app.routes.email_sms_routes import email_sms_bp
+    app.register_blueprint(email_sms_bp)
 
     @app.route('/health')
     def health_check():
