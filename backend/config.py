@@ -11,6 +11,9 @@ class Config:
     # Model paths
     MODEL_DIR = os.environ.get('MODEL_DIR') or os.path.join(os.path.dirname(__file__), 'models')
 
+    # Google Safe Browsing API
+    GOOGLE_SAFE_BROWSING_API_KEY = os.environ.get('GOOGLE_SAFE_BROWSING_API_KEY')
+
     # API settings
     MAX_CONTENT_LENGTH = 16 * 1024 * 1024  # 16MB max request size
 
