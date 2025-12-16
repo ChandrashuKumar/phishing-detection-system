@@ -13,7 +13,10 @@ def create_app(config_class=Config):
 
     # Register blueprints
     from app.routes.email_sms_routes import email_sms_bp
+    from app.routes.url_routes import url_bp
+
     app.register_blueprint(email_sms_bp)
+    app.register_blueprint(url_bp)
 
     @app.route('/health')
     def health_check():
