@@ -14,6 +14,9 @@ class Config:
     # Google Safe Browsing API
     GOOGLE_SAFE_BROWSING_API_KEY = os.environ.get('GOOGLE_SAFE_BROWSING_API_KEY')
 
+    # APILayer WHOIS API
+    APILAYER_API_KEY = os.environ.get('APILAYER_API_KEY')
+
     # API settings
     MAX_CONTENT_LENGTH = 16 * 1024 * 1024  # 16MB max request size
 
